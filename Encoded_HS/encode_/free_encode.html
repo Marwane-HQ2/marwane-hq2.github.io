@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'><text x='0' y='25' font-size='25'>🔒</text></svg>" type="image/svg+xml">
+        <link rel="stylesheet" href="../style.css">
+        <title>Encode your messages !</title>
+    </head>
+    <body>
+    <h1>Encode your messages !</h1>
+    <h2>You're free to code the messages you want to code !</h2>
+    <p>Enter a key you would like to use to create your encode logic !</p>
+    <form onsubmit="submitKey(event)">
+        <label for="keyForEncode">Enter the word you would like to use as key:</label>
+        <input type="text" id="keyForEncode" placeholder="Be creative !">
+        <br>
+        <button type="submit">Submit the key !</button>
+    <table border="1">
+        <p id="confirmationKey">Waiting for a key...</p>
+        <tr>
+            <td id="demitable">
+            Encode here !
+            </td>
+            <td id="demitable">
+            Decode here !
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="textToEncodeFree">Enter your text to encode with the key you provided:</label>
+                    <input type="text" id="textToEncodeFree" placeholder="You're free to write...">
+                    <br>
+                    <button onclick="playEncode(event)">Encode !</button>
+                <p id="encodeKey"></p>
+            </td>
+            <td>
+                <label for="textToDecodeFree">Enter your text to decode with the key you provided:</label>
+                    <input type="text" id="textToDecodeFree" placeholder="... anything you want !">
+                    <br>
+                    <button onclick="playDecode(event)">Decode !</button>
+                <p id="decodeKey"></p>
+            </td>
+        </tr>
+        <tr>
+            
+        </tr>
+    </table>
+    <br>
+    <button onclick="window.location.href='../index.html'" id="home">Return home ?</button> <button onclick="window.location.href='../play.html'">Want to play Encoded ?</button>
+
+    <script src="script_free.js"></script>
+</body>
+</html>

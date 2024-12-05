@@ -1,0 +1,74 @@
+/* H1 FONT */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Saira+Stencil+One&display=swap'); 
+
+/* BODY FONT */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Audiowide&family=Saira+Stencil+One&display=swap');
+
+body {
+    color: #FA98FA;
+    font-family: Audiowide ;
+    background: linear-gradient(45deg, rgba(250,152,250,1) 1%, rgba(118,97,118,1) 15%,rgba(0,0,0,1) 30% , rgba(0,0,0,1) 50%, rgba(0,0,0,1) 60%, rgba(68,99,68,1) 80%, rgba(152,251,152,1) 100%);
+}
+
+
+a {
+    color: #98FB98;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #98FB98;
+}
+
+h1 {
+    font-family: Saira Stencil One;
+}
+
+table {
+    color: #000;
+    background-color: #FA98FA;
+    width: 100%;
+    text-align: center;
+    font-size: 30;
+}
+
+#empty_table {
+    width: 1/26;
+    height: 15px;
+}
+
+#demitable {
+    width: 50%;
+}
+
+td:hover {
+    background-color: #98FB98;
+}
+
+button {
+    background: #FA98FA;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
+
+#home {
+    background: #98FB98;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
