@@ -5,5 +5,5 @@ In this game, you need to find the key (everything is explained in the home page
 ### Encode messages 🔢
 On this page, you are free to create your own encode logic by submitting a word or expression you would like to use as key and encode (or decode) your own messages !
 ## Magic link 🔗
-[Have fun !](https://marwane-hq2.github.io/Encoded_HS/index.html)
+[Have fun !](https://marwane-hq2.github.io/index.html)
 
